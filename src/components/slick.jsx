@@ -19,7 +19,7 @@ import {BsFillPauseFill} from "react-icons/bs"
 import {FaDraft2Digital, FaPlay} from "react-icons/fa"
 let project_array = [{img:img1,project:{
 title:"Ubuntu World",
-url:"",
+url:"https://www.ubuntu.world/#/home",
 short_desc:"Ubuntu world is a video based question-answer survey application",
 long_desc:"Users can prepare surveys in the application, specify conditions , and send more than one form to more than one person via email or phone number.",
 tech:"React.js , Redux , Material-ui , Aws , Node.js , DynomoDB , Firebase cloud , Twillio , Rest api  "
@@ -51,7 +51,7 @@ tech:"React.js , Redux , Material-ui , Aws , Node.js , DynomoDB , Firebase cloud
       }},
     {img:img5,project:{
       title:"Imagine Signage",
-      url:"",
+      url:"https://imaginesignage.com/",
       short_desc:"Imagine signage company's e-commerce application ",
       long_desc:"An app where I combine functionality with a professional design. ",
       tech:"React , Redux , Html-css , Firebase  "
