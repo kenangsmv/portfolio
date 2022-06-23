@@ -257,18 +257,19 @@ export default class About extends Component {
               <div className="columns experience">
                 <ul>
                 <li>
-                    <b className="-purple">Self-Learn developer</b>
+                    <b className="-purple">Self-Learn developer and Freelancer</b>
                     <br />
                     at own apartment :)
                     <br />
                     2019 - now
                   </li>
+                  
                   <li>
                     <b className="-purple">front-end developer</b>
                     <br />
-                    at <a href="https://www.jelibot.com/">freelancer.com</a>
+                    at <a href="https://www.jelibot.com/">SSAT JELIBOT</a>
                     <br />
-                    2021 - now
+                    2021/11 - 2022/3 
                   </li>
                  
                 </ul>

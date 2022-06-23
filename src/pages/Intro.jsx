@@ -122,9 +122,9 @@ const [timer,setTimer]=React.useState(false)
                   <li>
                     <b className="-purple"> Frontend developer</b>
                     <br />
-                    at <a href="https://www.jelibot.com/">jelibot.com</a> 
+                    at <a href="https://www.jelibot.com/">SSAT JELIBOT</a> 
                     <br />
-                    2021 - now
+                    2021/11 - 2022/3 
                   </li>
                 </ul>
               </div>
