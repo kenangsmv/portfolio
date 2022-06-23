@@ -14,10 +14,21 @@ import img5 from "../assets/project_images/5.png";
 import img6 from "../assets/project_images/6.jpeg";
 import img7 from "../assets/project_images/7.png";
 import img8 from "../assets/project_images/8.png";
-import img9 from "../assets/project_images/9.png";
+import img11 from "../assets/project_images/metaliga.png";
 import {BsFillPauseFill} from "react-icons/bs"
 import {FaDraft2Digital, FaPlay} from "react-icons/fa"
-let project_array = [{img:img1,project:{
+let project_array = [
+
+{img:img11,project:{
+    title:"MetaLiga",
+    url:"https://metaliga.io/",
+    short_desc:"First-ever virtual football industry on blockchain. A virtual world owned by its users",
+    long_desc:"MetaLiga is a virtual reality platform powered by the Near Protocol blockchain. Users will customize their characters, experience realistic football in the virtual world, and earn tokens to be able to use/trade in-game and in real life.",
+    tech:"React.js , Blockchain , Node.js ,Redux "
+    
+    }}, 
+  
+{img:img1,project:{
 title:"Ubuntu World",
 url:"https://www.ubuntu.world/#/home",
 short_desc:"Ubuntu world is a video based question-answer survey application",
