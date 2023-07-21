@@ -83,39 +83,37 @@ export default class About extends Component {
   render() {
     return (
       <div id="about" className="wrapper">
-         <div className="">
-   
-   <div class="spine">
-
-   <Lottie
-         options={defaultOptions}
-       
-         style={{
-           position: "absolute",
-           transition: "opacity 2s",
-           width:600,
-           height:600,
-           top:-302,
-           left:-300,
-          
-         
-
-         }}
-       />
-
-   </div>
-   <div class="spine-target">
-     <div class="circle relative">
-   
-     </div>
-     <div class="pulse"></div>
-   </div>
- </div>
+        <div className="">
+          <div class="spine">
+            <Lottie
+              options={defaultOptions}
+              style={{
+                position: "absolute",
+                transition: "opacity 2s",
+                width: 600,
+                height: 600,
+                top: -302,
+                left: -300,
+              }}
+            />
+          </div>
+          <div class="spine-target">
+            <div class="circle relative"></div>
+            <div class="pulse"></div>
+          </div>
+        </div>
         <div></div>
         <div className="static-container">
           <h1 className="title">
-         
-            <span class="tag-arrow"> {"<"} <span class="tag">about</span> <span class="attr">class</span> <span class="equal">=</span><span class="string">{"'"}me{"'"}</span>{"/>"}</span>
+            <span class="tag-arrow">
+              {" "}
+              {"<"} <span class="tag">about</span>{" "}
+              <span class="attr">class</span> <span class="equal">=</span>
+              <span class="string">
+                {"'"}me{"'"}
+              </span>
+              {"/>"}
+            </span>
           </h1>
 
           <div className="std">
@@ -192,10 +190,10 @@ export default class About extends Component {
               </ul>
 
               <p className="-purple">
-                I am a frontend web and mobile developer . 
+                I am a frontend web and mobile developer .
               </p>
               <p className="-gray">
-                // 2+ years of experience
+                // 1.5+ years of experience
                 <br />
               </p>
             </div>
@@ -206,72 +204,83 @@ export default class About extends Component {
                 <ul>
                   <li>
                     Frontend development,
-                    <br /> 
-                    JavaScript, CSS, HTML 
-                    <br /> 
-
-                  </li>
-                  <li>
-                    React, Redux, Material-ui
-                    <br /> 
-                    Vue, Vuex, Bootstrap
-                  </li>
-                  <li>
-                  Landing pages,
-
                     <br />
-                    Admin panels
-
+                    HTML, CSS, JavaScript
+                    <br />
                   </li>
                   <li>
-                    Strategic thinking,
+                    React.js, Redux Toolkit,
                     <br />
-                    Modern ui design
+                    React Native,
                   </li>
-                  
+                  <li>
+                    Angular.js
+                    <br />
+                    Ionic
+                  </li>
+                  <li>
+                    Tailwind.css,
+                    <br />
+                    Bootstrap,
+                  </li>
                 </ul>
               </div>
-
-              <h2>Tools</h2>
               <div className="columns tools">
                 <ul>
-                  <li>React</li>
-                  <li>Vue</li>
-                  
-                  
+                  <li>Material UI</li>
+                  <li>Ant Design</li>
                 </ul>
                 <ul>
-                <li>Material-ui</li>
-                  <li>Bootstrap</li>
+                  <li> RSuite.js</li>
+                  <li>Chart.js</li>
                 </ul>
                 <ul>
-                  <li>Webpack</li>
-                  <li>GitHub</li>
+                  <li>RapidApi,</li>
+                  <li>REST APIs</li>
                 </ul>
-                <ul> <li>REST APIs</li>
-                  <li>Firebase</li></ul>
-
+                <ul>
+                  {" "}
+                  <li>Git</li>
+                  <li>Firebase</li>
+                </ul>
               </div>
 
               <h2>Experience</h2>
               <div className="columns experience">
                 <ul>
-                <li>
-                    <b className="-purple">Self-Learn developer and Freelancer</b>
+                  <li>
+                    <b className="-purple">front-end developer</b>
                     <br />
-                    at own apartment :)
+                    at{" "}
+                    <a href="https://www.linkedin.com/company/teknodev/mycompany/">
+                      Teknodev
+                    </a>
                     <br />
-                    2019 - now
+                    2023 - now
                   </li>
-                  
+                  <li>
+                    <b className="-purple">co-founder</b>
+                    <br />
+                    at <a href="https://metaliga.io/">Metaliga</a>
+                    <br />
+                    2022 - now
+                  </li>
                   <li>
                     <b className="-purple">front-end developer</b>
                     <br />
                     at <a href="https://www.jelibot.com/">SSAT JELIBOT</a>
                     <br />
-                    2021/11 - 2022/3 
+                    2022 - 2023
                   </li>
-                 
+                  <li>
+                    <b className="-purple">
+                      Self-Learn developer and Freelancer
+                    </b>
+                    <br />
+                    at own apartment :)
+                    <br />
+                    2019 - now
+                  </li>
                 </ul>
               </div>
 
@@ -279,21 +288,14 @@ export default class About extends Component {
               <div className="columns languages">
                 <ul>
                   <li>
-                   
                     <i className="-purple">az/</i>Azerbaijani,
-
                   </li>
-                 
+
                   <li>
-                  <i className="-purple">tr/</i>Turkish
-                 
-                   
+                    <i className="-purple">tr/</i>Turkish
                   </li>
                   <li>
-                  <i className="-purple">en/</i> English
-
-                 
-                   
+                    <i className="-purple">en/</i> English
                   </li>
                 </ul>
               </div>

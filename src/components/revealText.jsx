@@ -1,20 +1,29 @@
 import React from "react";
 import { TimelineMax, Power3, Power0, Power2, Elastic } from "gsap";
-let arr=["react.js","vue.js"]
+let arr = [
+  "html",
+  "css",
+  "javascript",
+  "typescript",
+  "react.js",
+  "angular.js",
+  "ionic",
+  "tailwind",
+  "git",
+  "scss",
+];
 
-export default function RevealText({currentState,customize}) {
+export default function RevealText({ currentState, customize }) {
   const [state, setState] = React.useState(0);
- const [intro,setIntro]=React.useState()
+  const [intro, setIntro] = React.useState();
   React.useEffect(() => {
-    if(customize){
- 
-    }else{
-        setTimeout(() => {
-            setState(state + 1);
-        }, 2500);
+    if (customize) {
+    } else {
+      setTimeout(() => {
+        setState(state + 1);
+      }, 2500);
     }
-    new TimelineMax().addLabel("enter", 1)
-    .from(
+    new TimelineMax().addLabel("enter", 1).from(
       ".topAnimate",
       2,
       {
@@ -24,26 +33,22 @@ export default function RevealText({currentState,customize}) {
         ease: Power3.easeOut,
       },
       "enter-=1"
-    )
-
- 
+    );
   }, [state]);
   React.useEffect(() => {
-    if(customize){
-        setState(currentState);
+    if (customize) {
+      setState(currentState);
     }
- 
-   
-
   }, [currentState]);
-
-
 
   return (
     <div className="inline-block">
-     {arr.map((item,index)=>state%2===index&&
-          <div className="topAnimate func transition " >{item}</div>
-        )}
+      {arr.map(
+        (item, index) =>
+          state % arr.length === index && (
+            <div className="topAnimate func transition ">{item}</div>
+          )
+      )}
     </div>
   );
 }
